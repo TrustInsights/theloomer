@@ -1,3 +1,16 @@
+# Configuration
+UTM_SOURCE = "almost-timely-newsletter"
+UTM_MEDIUM = "email"
+UTM_CAMPAIGN = "almost-timely-newsletter-2024-02-11"
+
+# Assuming UTM_SOURCE, UTM_MEDIUM, and UTM_CAMPAIGN are defined globally
+# Example:
+# UTM_SOURCE = "example_source"
+# UTM_MEDIUM = "example_medium"
+# UTM_CAMPAIGN = "example_campaign"
+
+### DON'T EDIT PAST HERE IF YOU DON'T KNOW PYTHON
+
 import argparse
 import csv
 from datetime import datetime
@@ -18,16 +31,6 @@ except ImportError:
     print("BeautifulSoup is not installed. Please install it using 'pip install beautifulsoup4' and then rerun the script.")
     exit()
 
-# Configuration
-UTM_SOURCE = "almost-timely-newsletter"
-UTM_MEDIUM = "email"
-UTM_CAMPAIGN = "almost-timely-newsletter-2024-02-11"
-
-# Assuming UTM_SOURCE, UTM_MEDIUM, and UTM_CAMPAIGN are defined globally
-# Example:
-# UTM_SOURCE = "example_source"
-# UTM_MEDIUM = "example_medium"
-# UTM_CAMPAIGN = "example_campaign"
 
 def append_utm_parameters(url):
     """
