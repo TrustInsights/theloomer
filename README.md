@@ -22,6 +22,8 @@ python theloomer.py --input your-html-file-here.htm
 
 ## Platform
 
+This script requires Python 3.
+
 The script requires the following libraries:
 - Beautiful Soup
 - argparse
