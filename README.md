@@ -14,6 +14,8 @@ This script is intended to be used by anyone with a passing familiarity with Pyt
 
 ## Process
 
+Edit the first few lines of the code in the UTM parameters to set them to the source, medium, and campaign you desire. You only need to do this when they change.
+
 Run the script from your local computer in the same directory as your HTML file, with this syntax:
 
 ```
