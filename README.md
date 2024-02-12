@@ -39,7 +39,9 @@ pip install --upgrade beautifulsoup4 argparse tqdm
 
 ## Performance
 
-The end result after running the script should be the CSV file of logged changes, plus a modified HTML file.
+The end result after running the script should be the CSV file of logged changes, plus a modified HTML file:
+
+![The Loomer in Action](https://www.trustinsights.ai/wp-content/uploads/2024/02/2024-02-12_11-46-55.png)
 
 # Enjoyed It?
 
